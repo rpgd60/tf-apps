@@ -7,11 +7,10 @@ Intended to explore the Terraform simple and OAuth-based VCS integration with Gi
 Explore if a Workspace can point to a specific "folder" (e.g. app2/dev,  app3/prod)
 This would be an alternative to having dedicated repos for each combination (e.g. repos app1-dev, app1-prod, etc.)
 - This can be done with the parameter "Terraform Working Directory" when creating a Workspace.
-- We will attempt to create 4 workspaces with a slightly different set of parameters.
-    -  gh-app2-dev
-    -  gh-app2-prod
-    -  gh-app3-dev
-    -  gh-app3-prod
+- We will attempt to create 2 workspaces with a slightly different set of parameters.
+    -  gh-app2-android-dev
+    -  gh-app2-ios-dev
+ 
 
 In app2
 - All variables except app_name are defined in variables.auto.tfvars

@@ -1,3 +1,4 @@
 region = "westeurope"
-# environment = "dev"
-cost_center = "PI-33333"
+environment = "dev"
+cost_center = "00002i"
+app_name = "app2-ios"
